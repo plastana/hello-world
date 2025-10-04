@@ -71,8 +71,8 @@ dependencies {
     // Permissions
     implementation("androidx.activity:activity-result:1.2.0")
     
-    // Zebra DataWedge (per TC21)
-    implementation("com.symbol:emdk:9.1.0")
+    // Zebra DataWedge (per TC21) - Commentato temporaneamente
+    // implementation("com.symbol:emdk:9.1.0")
     
     // Testing
     testImplementation("junit:junit:4.13.2")
