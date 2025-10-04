@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shopping List Scanner</string>
+    
+    <!-- Main Activity -->
+    <string name="load_csv">Carica CSV</string>
+    <string name="start_scan">Scansiona</string>
+    <string name="export_csv">Esporta CSV</string>
+    <string name="reset">Reset</string>
+    <string name="progress_format">Progresso: %d%%</string>
+    <string name="items_count_format">%d/%d articoli</string>
+    
+    <!-- Scanner Activity -->
+    <string name="scanner_title">Scanner Barcode</string>
+    <string name="scanner_instruction">Inquadra il barcode dell\'articolo</string>
+    <string name="manual_input">Inserimento Manuale</string>
+    <string name="scan_result">Risultato scansione</string>
+    
+    <!-- Item Detail Activity -->
+    <string name="item_detail_title">Dettaglio Articolo</string>
+    <string name="item_code">Codice:</string>
+    <string name="item_description">Descrizione:</string>
+    <string name="item_location">Ubicazione:</string>
+    <string name="item_barcode">Barcode:</string>
+    <string name="item_quantity_to_pick">Da prelevare:</string>
+    <string name="item_quantity_picked">Prelevato:</string>
+    <string name="item_notes">Note:</string>
+    <string name="add_quantity">Aggiungi Quantità</string>
+    <string name="complete_item">Completa Articolo</string>
+    
+    <!-- Messages -->
+    <string name="csv_loaded_format">Caricati %d articoli</string>
+    <string name="csv_load_error">Errore caricamento CSV</string>
+    <string name="csv_export_success">File esportato con successo</string>
+    <string name="csv_export_error">Errore esportazione CSV</string>
+    <string name="item_not_found">Articolo non trovato nella lista</string>
+    <string name="item_completed">Articolo completato</string>
+    <string name="item_already_completed">Articolo già completato</string>
+    <string name="quantity_added">Quantità aggiunta</string>
+    <string name="permissions_required">Alcuni permessi sono necessari</string>
+    
+    <!-- Dialogs -->
+    <string name="reset_confirmation_title">Reset Lista</string>
+    <string name="reset_confirmation_message">Sei sicuro di voler resettare tutti i dati?</string>
+    <string name="add_item_title">Aggiungi Articolo</string>
+    <string name="add_item_message">Vuoi aggiungere questo articolo alla lista?</string>
+    <string name="quantity_input_title">Inserisci Quantità</string>
+    <string name="quantity_input_message">Quantità da aggiungere:</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Annulla</string>
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+    <string name="save">Salva</string>
+    <string name="close">Chiudi</string>
+    
+    <!-- Units -->
+    <string name="unit_pz">pz</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_lt">lt</string>
+    <string name="unit_sc">sc</string>
+    
+    <!-- Status -->
+    <string name="status_pending">In attesa</string>
+    <string name="status_scanned">Scansionato</string>
+    <string name="status_completed">Completato</string>
+</resources>

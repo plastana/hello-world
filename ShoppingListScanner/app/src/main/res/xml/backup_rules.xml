@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude cache and temporary files -->
+    <exclude domain="cache" />
+    <exclude domain="external" path="temp" />
+    
+    <!-- Include important app data -->
+    <include domain="file" path="shopping_lists" />
+    <include domain="sharedpref" path="app_preferences.xml" />
+</full-backup-content>

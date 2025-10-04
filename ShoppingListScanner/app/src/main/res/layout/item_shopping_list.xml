@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <!-- Indicatore stato -->
+        <View
+            android:id="@+id/statusIndicator"
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="12dp"
+            android:background="@color/design_default_color_error" />
+
+        <!-- Contenuto principale -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Prima riga: Descrizione e codice -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="4dp">
+
+                <TextView
+                    android:id="@+id/tvDescrizione"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Descrizione articolo"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/tvCodice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COD123"
+                    android:textSize="12sp"
+                    android:textColor="@color/design_default_color_secondary"
+                    android:background="@drawable/rounded_background"
+                    android:padding="4dp" />
+
+            </LinearLayout>
+
+            <!-- Seconda riga: Ubicazione -->
+            <TextView
+                android:id="@+id/tvUbicazione"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📍 Ubicazione: A1-B2-C3"
+                android:textSize="14sp"
+                android:textColor="@color/design_default_color_primary"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Terza riga: Quantità -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvQuantita"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Da prelevare: 10 pz"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/tvQuantitaPrelevata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Prelevato: 0 pz"
+                    android:textSize="14sp"
+                    android:textColor="@color/design_default_color_secondary" />
+
+            </LinearLayout>
+
+            <!-- Note (se presenti) -->
+            <TextView
+                android:id="@+id/tvNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Note: Controllare scadenza"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:textColor="@color/design_default_color_secondary"
+                android:layout_marginTop="4dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <!-- Pulsante azioni -->
+        <ImageButton
+            android:id="@+id/btnItemAction"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_menu_view"
+            android:contentDescription="Dettagli articolo" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
