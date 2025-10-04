@@ -1,0 +1,11 @@
+codice_articolo,descrizione,codice_fornitore,barcode,ubicazione,quantita_da_prelevare,unita_misura,quantita_prelevata,unita_misura_principale,valore_principale,unita_misura_secondaria,valore_secondaria,destinazione,note
+ART001,Pasta Barilla 500g,FOR001,8076809513524,A1-B2-C3,10,pz,0,pz,1.0,sc,12.0,Magazzino A,Controllare scadenza
+ART002,Olio Extravergine 1L,FOR002,8001440002045,A2-B1-C4,5,lt,0,lt,1.0,cassa,6.0,Magazzino A,Fragile - maneggiare con cura
+ART003,Pomodori Pelati 400g,FOR001,8076809590235,B1-C2-D1,20,pz,0,pz,1.0,sc,24.0,Magazzino B,
+ART004,Riso Carnaroli 1kg,FOR003,8001440003752,A3-B2-C1,8,kg,0,kg,1.0,sacco,25.0,Magazzino A,Prodotto biologico
+ART005,Zucchero Semolato 1kg,FOR004,8076809512817,C1-D2-E3,15,kg,0,kg,1.0,sacco,50.0,Magazzino C,
+ART006,Caffè Lavazza 250g,FOR005,8000070038516,B2-C3-D4,12,pz,0,pz,1.0,sc,18.0,Magazzino B,Tenere al fresco
+ART007,Latte UHT 1L,FOR006,8001440004469,A4-B3-C2,30,lt,0,lt,1.0,cassa,12.0,Magazzino A,Verificare temperatura
+ART008,Parmigiano Reggiano 200g,FOR007,8001440005176,D1-E2-F3,6,pz,0,pz,1.0,sc,10.0,Magazzino D,Prodotto DOP
+ART009,Prosciutto Crudo 100g,FOR008,8076809591942,D2-E3-F4,10,pz,0,pz,1.0,sc,20.0,Magazzino D,Mantenere catena del freddo
+ART010,Acqua Minerale 1.5L,FOR009,8001440006883,E1-F2-G3,24,lt,0,lt,1.0,cassa,6.0,Magazzino E,
